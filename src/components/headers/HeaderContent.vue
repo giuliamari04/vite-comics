@@ -1,6 +1,6 @@
 <template>
-    <div>
-      content goes here
+    <div class=" text-light container my-h d-flex align-items-center">
+     <h4>{{ text }}</h4>
     </div>
 </template>
 
@@ -12,7 +12,7 @@
         },
         data(){
             return{
-
+                text: '--> Content goes here <--',
             }
         },
         methods:{
@@ -22,4 +22,7 @@
 </script>
 
 <style scoped>
+.my-h{
+    height: 100px;
+}
 </style>

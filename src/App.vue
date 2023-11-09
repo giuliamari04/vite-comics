@@ -22,7 +22,7 @@ import FooterComponent from './components/FooterComponent.vue';
 </script>
 
 <template>
-    <div class="container">
+    <div>
       <HeaderComponent />
     <MainComponent />
     <FooterComponent />

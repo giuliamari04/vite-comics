@@ -1,6 +1,6 @@
 <template>
     
-        <nav class="navbar navbar-expand-lg bg-body-tertiary d-flex justify-content-between">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary d-flex justify-content-between container">
             <div>
                 <img src="/src/assets/images/dc-logo.png" alt="logo" class="w-50 m-3">
             </div>
@@ -93,9 +93,5 @@
     line-height: 4em;
     border-bottom: 5px solid #0282f9;
 
-}
-
-nav{
-    background-color:#ffffff ;
 }
 </style>

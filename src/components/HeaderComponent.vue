@@ -1,7 +1,12 @@
 <template>
    <header>
-    <NavBar />
-    <HeaderContent />
+    <div class="bg-navbar">
+        <NavBar />
+    </div>
+    <div class="bg-headercontent">
+         <HeaderContent />
+    </div>
+   
    </header>
 </template>
 
@@ -26,4 +31,11 @@ import HeaderContent from './headers/HeaderContent.vue';
 </script>
 
 <style scoped>
+.bg-navbar{
+    background-color:#ffffff ;
+}
+
+.bg-headercontent{
+    background-color:#1c1c1c ;
+}
 </style>
