@@ -22,9 +22,12 @@ import FooterComponent from './components/FooterComponent.vue';
 </script>
 
 <template>
-    <HeaderComponent />
+    <div class="container">
+      <HeaderComponent />
     <MainComponent />
     <FooterComponent />
+    </div>
+    
 </template>
 
 <style lang="scss" scoped>
