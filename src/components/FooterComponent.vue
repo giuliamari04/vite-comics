@@ -6,45 +6,45 @@
                 <div class="col">
                 <ul>
                 <span>dc comics</span>
-                <li>Characters</li>
-                <li>Comics</li>
-                <li>Movies</li>
-                <li>TV</li>
-                <li>Games</li>
-                <li>Videos</li>
-                <li>News</li>
+                <li><a href="#">Characters</a></li>
+                <li><a href="#">Comics</a></li>
+                <li><a href="#">Movies</a></li>
+                <li><a href="#">TV</a></li>
+                <li><a href="#">Games</a></li>
+                <li><a href="#">Videos</a></li>
+                <li><a href="#">News</a></li>
             </ul>
             <ul>
                 <span>shop</span>
-                <li>Shop DC</li>
-                <li>Shop DC Collectibles</li>
+                <li><a href="#">Shop DC</a></li>
+                <li><a href="#">Shop DC Collectible</a>s</li>
             </ul>
         </div>
                 <div class="col">
                  <ul>
                 <span>dc</span>
-                <li>Terms Of use</li>
-                <li>Privacy policy (New)</li>
-                <li>Ad Choices</li>
-                <li>Advertising</li>
-                <li>Jobs</li>
-                <li>Supscriptions</li>
-                <li>Talent Workshops</li>
-                <li>CPSC Certificates</li>
-                <li>Ratings</li>
-                <li>Shop Help</li>
-                <li>Contact Us</li>
+                <li><a href="#">Terms Of use</a></li>
+                <li><a href="#">Privacy policy (New)</a></li>
+                <li><a href="#">Ad Choices</a></li>
+                <li><a href="#">Advertising</a></li>
+                <li><a href="#">Jobs</a></li>
+                <li><a href="#">Supscriptions</a></li>
+                <li><a href="#">Talent Workshops</a></li>
+                <li><a href="#">CPSC Certificates</a></li>
+                <li><a href="#">Ratings</a></li>
+                <li><a href="#">Shop Help</a></li>
+                <li><a href="#">ontact Us</a>C</li>
             </ul></div>
                 <div class="col">
                 <ul>
                 <span>sites</span>
-                <li>DC</li>
-                <li>MAD Magazine</li>
-                <li>DC Kids</li>
-                <li>DC Universe</li>
-                <li>DC power Visa</li>
+                <li><a href="#">DC</a></li>
+                <li><a href="#">MAD Magazine</a></li>
+                <li><a href="#">DC Kids</a></li>
+                <li><a href="#">DC Universe</a></li>
+                <li><a href="#">DC power Visa</a></li>
             </ul></div>
-                <div class="col-8">
+                <div class="col-6">
                     <img src="/images/dc-logo-bg.png" alt="logo" class="position-absolute start-50 end-0 translate-middle-y my-logo-w ">
                 </div>
             </div>
@@ -99,8 +99,8 @@
     height:15vh;
 }
 .my-logo-w{
-    width: 42%;
-    top: 44%;
+    width: 450px;
+    top: 50%;
 }
 ul li{
     list-style: none;
@@ -109,7 +109,14 @@ ul li{
     color:rgb(172, 169, 169) ; 
     font-family: 'Open Sans', sans-serif;
 }
-
+a{
+    text-decoration: none;
+    color: inherit;
+}
+a:hover{
+    text-decoration: underline;
+    color: inherit;
+}
 span{
     text-transform: uppercase;
     font-weight: 700;
