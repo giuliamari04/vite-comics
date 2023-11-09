@@ -89,7 +89,7 @@
 @use '/src/assets/styles/partials/variables.scss' as *;
 .bg-top-footer{
     background-image: url('/images/footer-bg.jpg');
-    height: 42vh;
+    height: 43vh;
     color: white; 
     overflow: hidden;
 }
