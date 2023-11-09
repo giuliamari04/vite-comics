@@ -24,5 +24,6 @@
 <style scoped>
 .my-h{
     height: 100px;
+    margin-top: -12px;
 }
 </style>

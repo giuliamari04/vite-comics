@@ -1,10 +1,10 @@
 <template>
     
-        <nav class="navbar navbar-expand-lg bg-body-tertiary d-flex justify-content-between container">
+        <nav class="navbar navbar-expand-lg d-flex justify-content-between container mb-0">
             <div>
                 <img src="/src/assets/images/dc-logo.png" alt="logo" class="w-50 m-3">
             </div>
-  <div class="container-fluid ">
+  <div class="container-fluid">
     <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavAltMarkup">
       <div class="navbar-nav text-uppercase fw-semibold" v-for="(text, index) in NavList">
         <a class="nav-link" href="#" :class="{ 'active': index === selectedItem }" @click="selectItem(index)">{{ NavList[index].text }}</a>
@@ -86,12 +86,12 @@
  }
 </script>
 
-<style scoped>
-
+<style lang="scss" scoped>
+@use '/src/assets/styles/partials/variables.scss' as *;
 .active{
-    color:#0282f9 !important ;
+    color: $blue_primary !important;
     line-height: 4em;
-    border-bottom: 5px solid #0282f9;
+    border-bottom: 7px solid $blue_primary;
 
 }
 </style>
