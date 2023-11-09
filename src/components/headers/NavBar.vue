@@ -2,22 +2,12 @@
     
         <nav class="navbar navbar-expand-lg d-flex justify-content-between container mb-0">
             <div>
-                <img src="/src/assets/images/dc-logo.png" alt="logo" class="w-50 m-3">
+                <img src="/images/dc-logo.png" alt="logo" class="w-50 m-3">
             </div>
   <div class="container-fluid">
     <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavAltMarkup">
       <div class="navbar-nav text-uppercase fw-semibold" v-for="(text, index) in NavList">
         <a class="nav-link" href="#" :class="{ 'active': index === selectedItem }" @click="selectItem(index)">{{ NavList[index].text }}</a>
-        <!-- <a class="nav-link active" aria-current="page" href="#">characters</a>
-        <a class="nav-link" href="#">comics</a>
-        <a class="nav-link" href="#">movies</a>
-        <a class="nav-link" href="#">tv</a>
-        <a class="nav-link" href="#">tv</a>
-        <a class="nav-link" href="#">tv</a>
-        <a class="nav-link" href="#">tv</a>
-        <a class="nav-link" href="#">tv</a>
-        <a class="nav-link" href="#">tv</a>
-        <a class="nav-link" href="#">tv</a> -->
       </div>
     </div>
   </div>

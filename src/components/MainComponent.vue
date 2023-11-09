@@ -23,23 +23,23 @@ export default {
     return {
         icons:[
             {
-                img:'/src/assets/images/buy-comics-digital-comics.png',
+                img:'/images/buy-comics-digital-comics.png',
                 text:'digital comics',
             },
             {
-                img:'/src/assets/images/buy-comics-merchandise.png',
+                img:'/images/buy-comics-merchandise.png',
                 text:'dc merchandise',
             },
             {
-                img:'/src/assets/images/buy-comics-subscriptions.png',
+                img:'/images/buy-comics-subscriptions.png',
                 text:'subscription',
             },
             {
-                img:'/src/assets/images/buy-comics-shop-locator.png',
+                img:'/images/buy-comics-shop-locator.png',
                 text:'comic shop locator',
             },
             {
-                img:'/src/assets/images/buy-dc-power-visa.svg',
+                img:'/images/buy-dc-power-visa.svg',
                 text:'dc power visa',
             },
         ]

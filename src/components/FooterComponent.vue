@@ -45,7 +45,7 @@
                 <li>DC power Visa</li>
             </ul></div>
                 <div class="col-8">
-                    <img src="/src/assets/images/dc-logo-bg.png" alt="logo" class="position-absolute top-50 start-50 end-0 translate-middle-y my-logo-w ">
+                    <img src="/images/dc-logo-bg.png" alt="logo" class="position-absolute top-50 start-50 end-0 translate-middle-y my-logo-w ">
                 </div>
             </div>
         </div>
@@ -57,11 +57,11 @@
             </div>
             <div>
                 <span class="text-primary text-uppercase px-2">follow us</span>
-                <span class="px-2"><img src="/src/assets/images/footer-facebook.png" alt="icon"></span>
-                <span class="px-2"><img src="/src/assets/images/footer-twitter.png" alt=""></span>
-                <span class="px-2"><img src="/src/assets/images/footer-youtube.png" alt=""></span>
-                <span class="px-2"><img src="/src/assets/images/footer-pinterest.png" alt=""></span>
-                <span class="px-2"><img src="/src/assets/images/footer-periscope.png" alt=""></span>
+                <span class="px-2"><img src="/images/footer-facebook.png" alt="icon"></span>
+                <span class="px-2"><img src="/images/footer-twitter.png" alt=""></span>
+                <span class="px-2"><img src="/images/footer-youtube.png" alt=""></span>
+                <span class="px-2"><img src="/images/footer-pinterest.png" alt=""></span>
+                <span class="px-2"><img src="/images/footer-periscope.png" alt=""></span>
             </div>
         </div>
      </section>
@@ -88,7 +88,7 @@
 <style lang="scss" scoped>
 @use '/src/assets/styles/partials/variables.scss' as *;
 .bg-top-footer{
-    background-image: url('src/assets/images/footer-bg.jpg');
+    background-image: url('/images/footer-bg.jpg');
     height: 42vh;
     color: white; 
 }
