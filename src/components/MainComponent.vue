@@ -1,12 +1,12 @@
 <template>
   <main class="bg-primary">
     <section class="container">
-      <div class="d-inline-flex flex-row my-w py-4" v-for="(elem, index) in icons">
-        <div class="d-flex justify-content-center align-items-center text-uppercase px-4">
-          <div  class="w-25 px-2 ">
-            <img :src='icons[index].img' alt="icon" class="card-img" />
+      <div class="d-inline-flex flex-row my-w py-4 d-flex justify-content-center align-items-center"  v-for="(elem, index) in icons">
+        <div class="d-flex align-items-baseline text-uppercase px-3">
+          <div  class="icon ">
+            <img :src='icons[index].img' alt="icon" class="w-100" />
           </div>
-          <div>
+          <div class="w-75 fw-light">
             <span>{{ icons[index].text }}</span>
           </div>
         </div>
@@ -58,7 +58,16 @@ main {
   color: white;
   height: 15vh;
 }
+
+.icon{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
 .my-w{
-    width:calc(100% / 5 - 10px);
+    width:calc(100% / 5 );
+}
+.fw-light{
+    font-size: 0.8em;
 }
 </style>

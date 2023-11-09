@@ -2,7 +2,7 @@
     <footer>
      <section class="bg-top-footer">
         <div class="container">
-            <div class="row py-4 position-relative overflow-hidden">
+            <div class="row py-4 position-relative">
                 <div class="col">
                 <ul>
                 <span>dc comics</span>
@@ -45,7 +45,7 @@
                 <li>DC power Visa</li>
             </ul></div>
                 <div class="col-8">
-                    <img src="/images/dc-logo-bg.png" alt="logo" class="position-absolute top-50 start-50 end-0 translate-middle-y my-logo-w ">
+                    <img src="/images/dc-logo-bg.png" alt="logo" class="position-absolute start-50 end-0 translate-middle-y my-logo-w ">
                 </div>
             </div>
         </div>
@@ -91,6 +91,7 @@
     background-image: url('/images/footer-bg.jpg');
     height: 42vh;
     color: white; 
+    overflow: hidden;
 }
 
 .bg-bot-footer{
@@ -98,7 +99,8 @@
     height:15vh;
 }
 .my-logo-w{
-    width: 35%;
+    width: 42%;
+    top: 44%;
 }
 ul li{
     list-style: none;
