@@ -17,7 +17,7 @@
 </div>
     </div>
     <div class="flip-card-back">
-      <h1>{{title }}</h1> 
+      <h5>{{title }}</h5> 
       <p>{{ tipo }}</p> 
       <p>{{ prezzo }}</p>
     </div>
