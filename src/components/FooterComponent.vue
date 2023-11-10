@@ -114,11 +114,13 @@ ul li{
 a{
     text-decoration: none;
     color: inherit;
-}
-a:hover{
+
+    &:hover{
     text-decoration: underline;
     color: inherit;
 }
+}
+
 span{
     text-transform: uppercase;
     font-weight: 700;

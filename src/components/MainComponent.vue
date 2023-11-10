@@ -1,5 +1,5 @@
 <template>
-  <main class="bg-primary d-flex  align-items-center ">
+  <main class="my-bg-primary d-flex  align-items-center ">
     <section class="container">
       <div class="d-inline-flex flex-row my-w d-flex justify-content-center align-items-center"  v-for="(elem, index) in icons">
         <div class="d-flex align-items-baseline text-uppercase px-3">
@@ -51,7 +51,7 @@ export default {
 
 <style lang="scss" scoped>
 @use "../assets/styles/partials/variables.scss" as *;
-.bg-primary {
+.my-bg-primary {
   background-color: $blue_primary;
 }
 main {
