@@ -81,10 +81,23 @@
 .active{
     color: $blue_primary !important;
     line-height: 3.8em;
-    border-bottom: 7px solid $blue_primary;
+    // border-bottom: 7px solid $blue_primary;
 
 }
 nav{
     height: 15vh;
 }
+.nav-link {
+    position: relative;
+  }
+.nav-link.active::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 7px;
+    background-color: $blue_primary;
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+  }
 </style>
