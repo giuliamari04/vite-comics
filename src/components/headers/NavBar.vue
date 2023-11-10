@@ -80,7 +80,7 @@
 @use '/src/assets/styles/partials/variables.scss' as *;
 .active{
     color: $blue_primary !important;
-    line-height: 4em;
+    line-height: 3.8em;
     border-bottom: 7px solid $blue_primary;
 
 }

@@ -1,7 +1,7 @@
 <template>
-  <main class="bg-primary">
+  <main class="bg-primary d-flex  align-items-center ">
     <section class="container">
-      <div class="d-inline-flex flex-row my-w py-4 d-flex justify-content-center align-items-center"  v-for="(elem, index) in icons">
+      <div class="d-inline-flex flex-row my-w d-flex justify-content-center align-items-center"  v-for="(elem, index) in icons">
         <div class="d-flex align-items-baseline text-uppercase px-3">
           <div  class="icon ">
             <img :src='icons[index].img' alt="icon" class="w-100" />
