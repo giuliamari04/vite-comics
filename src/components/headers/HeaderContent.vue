@@ -42,7 +42,7 @@ import JumbotronComponent from './JumbotronComponent.vue';
     margin-top: -12px;
 }
 .my-tag{
-    width: 250px;
+    width: 18%;
     margin-top: -30px;
     margin-left: 10%;
     color: white;
@@ -50,5 +50,19 @@ import JumbotronComponent from './JumbotronComponent.vue';
     font-size: 2em;
     font-weight: 800;
     background-color: #0282f9;
+}
+@media screen and (max-width: 768px) {
+    .my-tag{
+    width: 25%;
+    font-size: 1.5em;
+}
+}
+@media screen and (max-width: 576px) {
+    .my-tag{
+    width: 40%;
+    font-size: 1.3em;
+    margin-left: 5%;
+    margin-top: -20px;
+}
 }
 </style>

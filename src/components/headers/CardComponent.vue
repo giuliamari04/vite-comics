@@ -9,7 +9,7 @@
 <div class="flip-card">
   <div class="flip-card-inner">
     <div class="flip-card-front">
-      <div class="card bg-transparent text-light mt-3 border-0 " >
+      <div class="card bg-transparent text-light border-0 " >
   <img :src="image" class="card-img-top" :alt="title">
   <div class="card-body border-0 ">
     <h4 class="card-title">{{ title }}</h4>
@@ -51,6 +51,7 @@ img{
 .card{
   cursor: pointer;
   transition: 1s;
+  margin-top: 20px
 }
 .card-title{
   font-size: 1em;
@@ -58,7 +59,7 @@ img{
 
 .flip-card {
   background-color: transparent;
-  height: 300px;
+  height: 45vh;
   perspective: 1000px;
 }
 
@@ -100,4 +101,26 @@ img{
   box-shadow: 0px 0px 10px #0282f9;
  
 }
+@media screen and (max-width: 768px) {
+  .flip-card {
+    height: 80vh;
+  }
+  .flip-card-back {
+    font-size: 14px; 
+  }
+}
+@media screen and (max-width: 576px) {
+  img{
+    height: 300px;
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+  .flip-card {
+    height: 90vh; 
+  }
+  .flip-card-back {
+    font-size: 12px; 
+  }
+}
+
 </style>

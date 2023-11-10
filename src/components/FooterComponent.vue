@@ -58,10 +58,10 @@
             <div>
                 <span class="text-primary text-uppercase px-2">follow us</span>
                 <span class="px-2"><img src="/images/footer-facebook.png" alt="icon"></span>
-                <span class="px-2"><img src="/images/footer-twitter.png" alt=""></span>
-                <span class="px-2"><img src="/images/footer-youtube.png" alt=""></span>
-                <span class="px-2"><img src="/images/footer-pinterest.png" alt=""></span>
-                <span class="px-2"><img src="/images/footer-periscope.png" alt=""></span>
+                <span class="px-2"><img src="/images/footer-twitter.png" alt="icon"></span>
+                <span class="px-2"><img src="/images/footer-youtube.png" alt="icon"></span>
+                <span class="px-2"><img src="/images/footer-pinterest.png" alt="icon"></span>
+                <span class="px-2"><img src="/images/footer-periscope.png" alt="icon"></span>
             </div>
         </div>
      </section>
@@ -185,5 +185,46 @@ span{
     0% { background-position: 0 0; }
     50% { background-position: 400% 0; }
     100% { background-position: 0 0; }
+}
+
+@media screen and (max-width: 768px) {
+  .bg-top-footer {
+    height: fit-content; 
+  }
+  .my-logo-w {
+    width: 300px; 
+  }
+  ul li {
+    font-size: 0.6em; 
+  }
+  .glow-on-hover {
+    width: 120px; 
+    height: 40px;
+  }
+  .bg-bot-footer{
+    background-color: #303030;
+    height:fit-content;
+}
+}
+
+
+@media screen and (max-width: 576px) {
+  .bg-top-footer {
+    height: 80vh; 
+  }
+  .my-logo-w {
+    width: 200px; 
+  }
+  ul li {
+    font-size: 0.5em; 
+  }
+  .glow-on-hover {
+    width: 100px; 
+    height: 30px;
+    font-size: 0.8em;
+  }
+  span img{
+    width: 20px;
+  }
 }
 </style>

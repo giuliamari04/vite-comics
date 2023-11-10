@@ -70,4 +70,26 @@ main {
 .fw-light{
     font-size: 0.8em;
 }
+@media screen and (max-width: 768px) {
+  main {
+    height: fit-content; 
+  }
+
+  .icon {
+    width: 60px; 
+    height: 80px;
+    padding-top: 20px;
+  }
+
+  .my-w {
+    width: 100%;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  main {
+    height: fit-content; 
+  }
+}
 </style>
