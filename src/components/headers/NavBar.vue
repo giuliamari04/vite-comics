@@ -84,4 +84,7 @@
     border-bottom: 7px solid $blue_primary;
 
 }
+nav{
+    height: 15vh;
+}
 </style>

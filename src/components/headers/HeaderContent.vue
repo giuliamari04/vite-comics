@@ -23,7 +23,7 @@
 
 <style scoped>
 .my-h{
-    height: 100px;
+    height:15vh;
     margin-top: -12px;
 }
 </style>

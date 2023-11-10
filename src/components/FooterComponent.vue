@@ -89,6 +89,8 @@
 @use '/src/assets/styles/partials/variables.scss' as *;
 .bg-top-footer{
     background-image: url('/images/footer-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 43vh;
     color: white; 
     overflow: hidden;
