@@ -9,9 +9,9 @@
 <div class="flip-card">
   <div class="flip-card-inner">
     <div class="flip-card-front">
-      <div class="card bg-transparent text-light mt-3" >
+      <div class="card bg-transparent text-light mt-3 border-0 " >
   <img :src="image" class="card-img-top" :alt="title">
-  <div class="card-body">
+  <div class="card-body border-0 ">
     <h4 class="card-title">{{ title }}</h4>
   </div>
 </div>
@@ -69,7 +69,6 @@ img{
   text-align: center;
   transition: transform 0.6s;
   transform-style: preserve-3d;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
 .flip-card:hover .flip-card-inner {
@@ -89,7 +88,7 @@ img{
 }
 
 .flip-card-back {
-  background-color:#141414;
+  background-color:transparent;
   border-radius: 10px;
   color: white;
   transform: rotateY(180deg);
